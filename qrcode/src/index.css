@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.qrcont{
+height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.img1{
+  padding: 10px;
+  box-shadow: 0 0 30px rgba(0,0, 0, 0.1);}
+
+
+.datalab{
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(55, 124, 180);
+  font-weight: 800;
+  font-size: 20px;
+  
+  
+}
+*{
+  font-family: 'Roboto';
+}
+input[type='text']{
+  width: 100%;
+  height: 5vh;
+
+  border: solid rgb(67, 143, 215) 2px;
+  border-radius: 10px;
+}
+button{
+  padding: 10px 20px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+  background-color: rgb(162, 162, 210);
+  transition: background-color 0.5s ease;
+  border: none;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: hsl(222, 57%, 19%);
+  color: #ffffff;
+  font-weight: bold;
+}
+.qr{
+  margin-left: -1px;
+}
